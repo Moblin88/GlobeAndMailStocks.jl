@@ -1,0 +1,16 @@
+name = "GlobeAndMailStocks"
+uuid = "5716f41f-860d-4bf6-9521-08756e6e11d5"
+authors = ["Nicholas Engelking <moblin88@me.com>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+
+[extras]
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Tables"]
